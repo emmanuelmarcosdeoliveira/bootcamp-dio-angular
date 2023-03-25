@@ -9,3 +9,19 @@
 
 // Imprima no console o valor que será gasto para realizar esta viagem.
 
+
+const precoEtanol  = 5.79;
+const precoGasolina  = 6.66;
+const gastoMedioporKm  = 10;
+let distanciaViagem = 100;
+const combustivel = "!Etanol";
+const litrosConsumidos = distanciaViagem / gastoMedioporKm;  
+if(combustivel === "Etanol"){
+const comEtanol = litrosConsumidos * precoEtanol;
+console.log(comEtanol.toFixed(2));
+} else {
+  const comGasolina = litrosConsumidos*precoGasolina;
+  console.log(comGasolina.toFixed(2)); 
+}
+
+
