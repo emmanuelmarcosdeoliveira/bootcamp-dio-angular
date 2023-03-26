@@ -16,7 +16,8 @@ console.log(aplicarDesconto(precoEtiqueta, 10));
 } else if (formaDePagamento === 3){
 console.log(precoEtiqueta)
 }else {
-  console.log(aplicarJuros)(precoEtiqueta, 10));
+  console.log(aplicarJuros(precoEtiqueta, 10));
+  
   }
 
 
